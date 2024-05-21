@@ -6,7 +6,7 @@ if (document.domain = "bloxd.io" || document.domain = "kirka.io") {
 }
 if (document.domain = "kirka.io") {
     let style1 = document.createElement('style');
-    style1.src = `https: //cdn.rawgit.com/karaage-2/KirkaCSS/main/NizzQCustom.css`;
-    style1.type = 'text/stylesheet';
+    style1.src = `https://cdn.rawgit.com/karaage-2/KirkaCSS/main/NizzQCustom.css`;
+    style1.type = 'text/css';
     document.body.appendChild(style1);
 }
