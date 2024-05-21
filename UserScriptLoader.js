@@ -5,9 +5,9 @@ if (document.domain = "bloxd.io" || document.domain = "kirka.io") {
     document.body.appendChild(script1);
 }
 if (document.domain = "kirka.io") {
-    let cssLinkElem = document.createElement("link");
-    cssLinkElem.href = "https://cdn.rawgit.com/karaage-2/KirkaCSS/main/NizzQCustom.css";
-    cssLinkElem.rel = "stylesheet";
-    document.head.appendChild(cssLinkElem);
+    let style1 = document.createElement("link");
+    style1.href = "https://cdn.rawgit.com/karaage-2/KirkaCSS/main/NizzQCustom.css";
+    style1.rel = "stylesheet";
+    document.head.appendChild(style1);
     alert("hi");
 }
