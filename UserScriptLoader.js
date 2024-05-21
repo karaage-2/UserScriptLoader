@@ -5,9 +5,14 @@ if (document.domain = "bloxd.io" || document.domain = "kirka.io") {
     document.body.appendChild(script1);
 }
 if (document.domain = "kirka.io") {
-    let style1 = document.createElement("link");
-    style1.href = "https://cdn.rawgit.com/karaage-2/KirkaCSS/main/NizzQCustom.css";
-    style1.rel = "stylesheet";
-    document.head.appendChild(style1);
-    alert("hi");
+    const cssLink = "https://cdn.rawgit.com/karaage-2/KirkaCSS/main/NizzQCustom.css";
+    document.addEventListener("DOMContentLoaded", () => {
+
+        let cssLinkElem = document.createElement("link");
+        cssLinkElem.href = cssLink;
+        cssLinkElem.rel = "stylesheet";
+
+        document.head.append(cssLinkElem);
+
+    });
 }
