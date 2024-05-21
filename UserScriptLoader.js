@@ -8,5 +8,5 @@ if (document.domain = "kirka.io") {
     let cssLinkElem = document.createElement("link");
     cssLinkElem.href = "https://cdn.rawgit.com/karaage-2/KirkaCSS/main/NizzQCustom.css";
     cssLinkElem.rel = "stylesheet";
-    document.head.append(cssLinkElem);
+    document.head.appendChild(cssLinkElem);
 }
