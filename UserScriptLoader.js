@@ -6,14 +6,10 @@ if (document.domain == "bloxd.io" || document.domain == "kirka.io") {
 }
 if (document.domain == "kirka.io") {
     const cssLink = "https://karaage-2.github.io/KirkaCSS/NizzQCustom.css";
-    document.addEventListener("DOMContentLoaded", () => {
+    let cssLinkElem = document.createElement("link");
+    cssLinkElem.href = cssLink;
+    cssLinkElem.rel = "stylesheet";
+    document.head.append(cssLinkElem);
+    alert("css");
 
-        let cssLinkElem = document.createElement("link");
-        cssLinkElem.href = cssLink;
-        cssLinkElem.rel = "stylesheet";
-
-        document.head.append(cssLinkElem);
-        alert("css");
-
-    });
 }
