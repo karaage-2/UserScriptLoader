@@ -10,5 +10,4 @@ if (document.domain == "kirka.io") {
     cssLinkElem.href = cssLink;
     cssLinkElem.rel = "stylesheet";
     document.head.append(cssLinkElem);
-    alert("css");
 }
