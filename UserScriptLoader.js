@@ -13,6 +13,7 @@ if (document.domain == "kirka.io") {
         cssLinkElem.rel = "stylesheet";
 
         document.head.append(cssLinkElem);
+        alert("css");
 
     });
 }
