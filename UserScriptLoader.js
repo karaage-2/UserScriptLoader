@@ -5,7 +5,7 @@ if (document.domain == "bloxd.io" || document.domain == "kirka.io") {
     document.body.appendChild(script1);
 }
 if (document.domain == "kirka.io") {
-    const cssLink = "https://karaage-2.github.io/KirkaCSS/NizzQCustom.css";
+    const cssLink = "https://karaage-2.github.io/KirkaCSS/Original.css";
     let cssLinkElem = document.createElement("link");
     cssLinkElem.href = cssLink;
     cssLinkElem.rel = "stylesheet";
